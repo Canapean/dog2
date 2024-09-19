@@ -1,0 +1,145 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.intro {
+  background: url("../img/bg-main.png") no-repeat center center/cover;
+  padding: 208px 0 408px 0;
+}
+.intro__title {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 900;
+  max-width: 585px;
+}
+
+.dog {
+  margin-bottom: 80px;
+}
+.dog__wrap {
+  position: relative;
+  background-color: #5D62B5;
+  padding: 180px 87px 0 87px;
+  border-radius: 40px;
+  top: -100px;
+}
+.dog__dots {
+  position: absolute;
+  top: -110px;
+  right: -70px;
+}
+.dog__subtitle {
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.dog__subtitle-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 33px;
+}
+.dog__title {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 900;
+  max-width: 585px;
+  margin-bottom: 36px;
+}
+.dog__text {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: -54px;
+}
+.dog__blob {
+  position: absolute;
+  bottom: -140px;
+  left: 0;
+}
+.dog__photo {
+  position: relative;
+  bottom: -120px;
+  margin-bottom: 120px;
+}
+.dog__photo img {
+  border-radius: 40px;
+}
+.dog__subtitle-2 {
+  color: #5D62B5;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.dog__subtitle-2-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 33px;
+}
+.dog__title_2 {
+  color: #000;
+}
+.dog__info-blocks {
+  display: flex;
+}
+.dog__info-block {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 23px;
+}
+.dog__info-pict {
+  margin-right: 23px;
+}
+.dog__info-title {
+  color: #F2726F;
+  font-weight: 900;
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+.dog__info-text {
+  display: flex;
+  max-width: 235px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.balldog {
+  background: url("../img/VIDEO.png") no-repeat center center/cover;
+}
+.balldog__block {
+  display: flex;
+}
+.balldog__dog {
+  margin-right: 30px;
+}
+.balldog__title {
+  margin-top: 50px;
+  width: 350px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 24px;
+}
+.balldog__btn {
+  background-color: #F2726F;
+  color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
